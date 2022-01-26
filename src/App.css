@@ -3,6 +3,28 @@ body {
   margin: 0;
 }
 
+h2 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  margin: 0 0 30px;
+  font-weight: 500;
+  position: relative;
+}
+
+h3::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  background: black;
+  bottom: 0;
+  left: 0;
+}
+
 .main-content {
   display: flex;
 }
@@ -18,4 +40,47 @@ body {
 .page-content {
   margin: 50px auto;
   width: 70%;
+}
+
+.template-element {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.example {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.accordion-content {
+  width: 100%;
+  display: flex;
+  margin: 50px 0;
+}
+
+.html-box,
+.css-box,
+.js-box {
+  width: 33%;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.html-box h4,
+.css-box h4,
+.js-box h4 {
+  width: 100%;
+  background: grey;
+  color: white;
+  margin: 0;
+  height: 20px;
+}
+.html-box p,
+.css-box p,
+.js-box p {
+  padding: 10px;
 }
