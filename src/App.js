@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import ResultCount from "./components/ResultCount";
 
 function App() {
   return (
@@ -82,6 +83,8 @@ function Temp5() {
   return (
     <div className="page-content">
       <h2>Template 5</h2>
+
+      <ResultCount />
     </div>
   );
 }
