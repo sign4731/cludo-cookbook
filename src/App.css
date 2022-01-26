@@ -14,3 +14,8 @@ body {
   padding-top: 25px;
   background-color: grey;
 }
+
+.page-content {
+  margin: 50px auto;
+  width: 70%;
+}

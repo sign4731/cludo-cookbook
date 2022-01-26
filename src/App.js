@@ -1,4 +1,3 @@
-import Nav from "./components/Nav";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -44,25 +43,46 @@ function App() {
 
 function Start() {
   return (
-    <div>
+    <div className="page-content">
       <h2>Home</h2>
+      <p>Here is going to be some text...</p>
     </div>
   );
 }
 
 function Temp1() {
-  return <h2>Template 1</h2>;
+  return (
+    <div className="page-content">
+      <h2>Template 1</h2>
+    </div>
+  );
 }
 function Temp2() {
-  return <h2>Template 2</h2>;
+  return (
+    <div className="page-content">
+      <h2>Template 2</h2>
+    </div>
+  );
 }
 function Temp3() {
-  return <h2>Template 3</h2>;
+  return (
+    <div className="page-content">
+      <h2>Template 3</h2>
+    </div>
+  );
 }
 function Temp4() {
-  return <h2>Template 4</h2>;
+  return (
+    <div className="page-content">
+      <h2>Template 4</h2>
+    </div>
+  );
 }
 function Temp5() {
-  return <h2>Template 5</h2>;
+  return (
+    <div className="page-content">
+      <h2>Template 5</h2>
+    </div>
+  );
 }
 export default App;
