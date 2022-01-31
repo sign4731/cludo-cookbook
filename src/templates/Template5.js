@@ -1,7 +1,7 @@
 import React from 'react';
 import ResultCount from "../components/ResultCount";
 
-class Template2 extends React.Component {
+class Template5 extends React.Component {
     render() {
         return (
             <div className="page-content">
@@ -18,4 +18,4 @@ class Template2 extends React.Component {
     }
 }
 
-export default Template2; 
+export default Template5; 

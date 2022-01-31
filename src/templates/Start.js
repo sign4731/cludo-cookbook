@@ -1,8 +1,13 @@
-export default function Start() {
-    return (
-        <div className="page-content">
-            <h2>Template 1</h2>
-            <p>Hello welcome to the first template</p>
-        </div>
-    );
+import React from 'react';
+class Start extends React.Component {
+    render() {
+        return (
+            <div className="page-content">
+                <h2>Introduction</h2>
+                <p>Here will come some text</p>
+            </div>
+        );
+    }
 }
+
+export default Start; 
