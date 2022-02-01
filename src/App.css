@@ -28,10 +28,14 @@ h3::after {
 .main-content {
   display: flex;
 }
+.component-container {
+  width: 100%;
+  padding: 20px;
+}
 
 .sidebar {
   margin: 0;
-  height: 100vh;
+  height: 100%;
   width: 100px;
   padding-top: 25px;
   background-color: grey;
@@ -83,4 +87,12 @@ h3::after {
 .css-box p,
 .js-box p {
   padding: 10px;
+}
+.cludo-radius-input {
+  border-radius: 20px;
+}
+.cludo-line-input {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
 }
